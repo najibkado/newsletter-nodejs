@@ -33,7 +33,7 @@ app.post("/newsletter", function (request, response) {
 
   const options = {
       method: "POST",
-      auth: "najib:d0bac2c74a3b5a82aca5308655c3217a-us18"
+      auth: ""
   };
 
   const jsonData = JSON.stringify(data);
